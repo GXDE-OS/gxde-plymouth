@@ -1,14 +1,14 @@
-Source: plymouth-theme-deepin
+Source: plymouth-theme-gxde
 Section: admin
 Priority: optional
 Maintainer: Leng Ganghua <hiweed@gmail.com>
 Build-Depends: debhelper (>= 8)
 Standards-Version: 3.9.2
 
-Package: plymouth-theme-deepin-logo
+Package: plymouth-theme-gxde-logo
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth
 Provides: plymouth-theme
 Replaces: plymouth (<< 0.8.1-1~)
-Description: Plymouth theme for Linux Deepin
- This theme package contains deepin-logo.
+Description: Plymouth theme for Linux GXDE
+ This theme package contains gxde-logo.
