@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 8)
 Standards-Version: 3.9.2
 
 Package: plymouth-theme-gxde-logo
-Architecture: amd64 i386
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth
 Provides: plymouth-theme
 Replaces: plymouth (<< 0.8.1-1~)
